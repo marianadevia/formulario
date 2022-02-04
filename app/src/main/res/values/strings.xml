@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="height">height</string>
+    <string name="date_birth">Fecha de Nacimiento</string>
+    <string name="country">País</string>
+</resources>
