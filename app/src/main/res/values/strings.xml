@@ -5,4 +5,8 @@
     <string name="height">height</string>
     <string name="date_birth">Fecha de Nacimiento</string>
     <string name="country">País</string>
+    <string name="birth_place">Lugar de Naciemiento</string>
+    <string name="notes">Notas</string>
+    <string name="mandatory">Obligatorio</string>
+    <string name="min_height">Mínimo 50cm</string>
 </resources>

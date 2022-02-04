@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/common_padding_default"
             android:hint="@string/name"
-            app:helperText="Obligatorio"
+            app:helperText="@string/mandatory"
             app:startIconDrawable="@drawable/ic_person"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/common_padding_default"
             android:hint="@string/last_name"
-            app:helperText="Obligatorio"
+            app:helperText="@string/mandatory"
             app:startIconDrawable="@drawable/ic_person"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
@@ -57,7 +57,7 @@
         android:layout_weight="40"
         android:layout_marginEnd="@dimen/common_padding_min"
         android:hint="@string/height"
-        app:helperText="Obligatorio"
+        app:helperText="@string/min_height"
         app:startIconDrawable="@drawable/ic_height"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <com.google.android.material.textfield.TextInputEditText
@@ -74,7 +74,6 @@
         android:layout_weight="60"
         android:layout_marginStart="@dimen/common_padding_min"
         android:hint="@string/date_birth"
-        app:helperText="Obligatorio"
         app:startIconDrawable="@drawable/ic_calendar_today"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <com.google.android.material.textfield.TextInputEditText
@@ -102,7 +101,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/common_padding_default"
-            android:hint="Lugar de Nacimiento"
+            android:hint="@string/birth_place"
             app:startIconDrawable="@drawable/ic_place"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
@@ -118,7 +117,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/common_padding_default"
-            android:hint="Lugar de Naciemiento"
+            android:hint="@string/notes"
+            app:counterEnabled="true"
+            app:counterMaxLength="@integer/notes_max_length"
             app:startIconDrawable="@drawable/ic_notes"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
