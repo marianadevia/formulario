@@ -9,4 +9,10 @@
     <string name="notes">Notas</string>
     <string name="mandatory">Obligatorio</string>
     <string name="min_height">Mínimo 50cm</string>
+    <string name="data_collect">Datos Recolectados</string>
+    <string name="clean_data">limpiar datos</string>
+    <string name="cancel">Cancelar</string>
+    <string name="positive_button">positive button</string>
+    <string name="negative_button">negative button</string>
+    <string name="height_error">la altura tiene que ser mayor o igual a 50</string>
 </resources>
